@@ -1,0 +1,36 @@
+.page_home {
+}
+
+	.page_home .company {
+		text-align: center;
+		padding: 70px 0;
+	}
+	
+		.page_home .company img {
+			width: auto;
+			max-height: 140px;
+			max-width: 100%;
+		}
+	
+	.page_home .link_games {
+		text-align: center;
+	}
+	
+		.page_home .link_games img {
+			width: 50%;
+			height: auto;
+		}
+
+
+@media screen and (orientation:landscape) {
+	
+	.page_home  {
+		width: 50%;
+		margin: 0 auto;
+	}
+
+		.page_home .company {
+			padding: 30px 0 20px;
+		}
+
+}

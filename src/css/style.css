@@ -1,0 +1,33 @@
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+a img, img {
+	border: 0;
+}
+
+.button {
+	box-shadow: -2px 3px 5px 0 rgba(0,0,0,.5);
+}
