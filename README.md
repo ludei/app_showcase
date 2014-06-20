@@ -5,6 +5,12 @@ This application is a showcase app created by Ludei to show examples of live web
 
 It's intended for demonstrational purposes only.
 
+Before running, please execute the following commands:
+```
+git submodule init
+git submodule update
+```
+
 The following demos are © of their respective owners, and have been uploaded first on:
 
 * The philoGL demo [original source] by Sencha Labs
