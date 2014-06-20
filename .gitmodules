@@ -1,0 +1,3 @@
+[submodule "src/demos/popcorn"]
+path = src/demos/popcorn
+url = https://github.com/montagejs/popcorn.git
